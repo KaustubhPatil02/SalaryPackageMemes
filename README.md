@@ -18,10 +18,10 @@ Here's the heavy artillery behind the laughs:
 # 🚀 Quick Start Guide
 ```bash
 # Clone the project (or download it if you're into that)
-git clone https://github.com/yourusername/MemeMyDegree.git
+git clone https://github.com/KaustubhPatil02/SalaryPackageMemes
 
 # Get into the meme machine
-cd MemeMyDegree
+cd SalaryPackageMemes
 
 # Install the fun stuff
 npm install
