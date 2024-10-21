@@ -1,19 +1,49 @@
 .app {
   font-family: Arial, sans-serif;
-  max-width: 600px;
+  max-width: 1200px;
   margin: 0 auto;
-  text-align: center;
   padding: 20px;
+  height: 100vh; /* Full viewport height to center vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center content horizontally and vertically */
+  min-height: auto;
+}
+
+.meme-container {
+  display: flex;
+  flex-direction: column; /* Stack layout for mobile */
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+/* Center the form and h1 content */
+.meme-section {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  flex: 1; /* Take up available space */
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center; /* Center text */
 }
 
 .form-group {
   margin-bottom: 20px;
+  text-align: center; /* Center input elements */
+  width: 100%; /* Ensure form elements align centrally */
 }
 
 input, select {
   padding: 10px;
   width: 80%;
   margin-top: 10px;
+  text-align: center;
 }
 
 button {
@@ -34,7 +64,8 @@ button:hover {
   margin-top: 20px;
   padding: 20px;
   border: 1px solid #eee;
-  background-color: black;
+  /* background-color: black; */
+  text-align: center;
 }
 
 .meme-gif {
@@ -42,4 +73,43 @@ button:hover {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+}
+
+/* Right-side image container */
+.desktop-image {
+  display: none; /* Hidden by default */
+}
+
+.right-image {
+  max-width: 500px; /* Increase size of the right-side image */
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+/* Make the layout horizontal (side-by-side) on larger screens */
+@media (min-width: 768px) {
+  .meme-container {
+    display: flex;
+    flex-direction: row; /* Horizontal layout */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    text-align: left;
+  }
+
+  .meme-section {
+    flex: 1;
+    margin-right: 20px; /* Spacing between form and image */
+    align-items: center; /* Center the form elements horizontally */
+  }
+
+  .desktop-image {
+    flex: 1;
+    display: block; /* Show image in larger screens */
+  }
+
+  .right-image {
+    max-width: 600px; /* Increase the size further if needed */
+  }
 }
