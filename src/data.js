@@ -5,6 +5,7 @@ export const memesData = {
         "https://i.pinimg.com/originals/7c/a4/38/7ca438ffb31e762e6f359cbb2d1c5bb7.gif",
         "https://i.pinimg.com/originals/c4/6c/b4/c46cb462b87169731235b1fdf4daab37.gif",
         "https://media.giphy.com/media/3oz8xDREH9BxgAfHIk/giphy.gif",
+        "https://i.pinimg.com/originals/58/f3/10/58f310fabc2682ac5a6ff3ad1027d8af.gif",
       ],
       funnyTexts: [
         "When you realize your Bachelor's is just a stepping stone to a Master's 😂",
@@ -18,6 +19,7 @@ export const memesData = {
       gifs: [
         "https://y.yarn.co/cfbfeb9e-2362-4d80-a0d4-59fffd34e828_text.gif",
         "https://media.tenor.com/images/37b135ba21a616b16d7f6a7044849dc4/tenor.gif",
+        "https://i.imgur.com/LwBn5Av.gif",
       ],
       funnyTexts: [
         "Master's degree? More like Master of Student Loans! 😅",
@@ -43,7 +45,8 @@ export const memesData = {
     BCA: {
       gifs: [
         "https://media.tenor.com/3W5PRcsU2JoAAAAM/150-rupaya-dega-phir-hera-pheri-memes.gif",
-        "https://media.giphy.com/media/l0IYdOSyPNTQU0gK8/giphy.gif",
+        "https://media.tenor.com/iSTbCd_Ao9wAAAAM/bhen-dar-gai-bhena-dar-gai-meri.gif",
+        "https://media.tenor.com/_3-jRGAExRQAAAAe/phir-hera-pheri-jokal-hai-jokal-hai.png",
       ],
       funnyTexts: [
         "BCA: Code now, sleep later! 💻",
