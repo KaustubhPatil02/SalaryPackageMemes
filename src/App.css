@@ -36,3 +36,10 @@ button:hover {
   border: 1px solid #eee;
   background-color: black;
 }
+
+.meme-gif {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
