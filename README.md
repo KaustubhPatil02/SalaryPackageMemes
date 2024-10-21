@@ -9,7 +9,7 @@ Here's the heavy artillery behind the laughs:
 
 ### React: Obviously, the brains behind this masterpiece.
 ### Vite: Lightning-fast project setup, because who has time to wait around?
-### Axios (maybe someday): In case you want to fetch memes from the deep meme-verse.
+### Axios (maybe someday): In case if we want to fetch memes from the deep meme-verse.
 ### 🛠 How It Works
 1. Choose Your Degree 🎓: Bachelor's, Master's, or PhD? Which one are you brave enough to own?
 2. Enter Your Expected Salary 💰: Go on, dream big... we won't judge (but our memes might).
