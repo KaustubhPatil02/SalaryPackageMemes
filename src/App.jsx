@@ -86,6 +86,9 @@
 // };
 
 // export default MemeMyDegree;
+
+
+// with this snippet from src/data.js:
 import React, { useState } from "react";
 import "./App.css";
 import { memesData } from "./data"; // Import your memes data
